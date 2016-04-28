@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {
+margin: 0;
+padding: 0;
+border: none;
+}
+
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D4A480;
+}
+
+#pageHeader {
+	width: 960px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-image: url(../week6/images/fotolia_pencils_opt.jpg);
+}
+
+#pageHeader h1 {
+	text-align: center;
+	color: #E1C234;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	text-shadow: 0px 0px 10px #000000;
+}
+
+#pageNav {
+	width: 960px;
+	padding: 10;
+	/* [disabled]height: 30px; */
+	float: left;
+}
+
+#pageNav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow-x: hidden;
+	background-color: #4E2E17;
+}
+
+#pageNav ul li {
+	float: left;
+}
+
+#pageNav ul li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 14px;
+	padding-right: 16px;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	float: left;
+}
+
+#pageNav ul li a:hover  {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 14px;
+	padding-right: 16px;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	background-color: #075A3C;
+	text-decoration: none;
+}
+
+#mainContent {
+	width: 960px;
+	float: left;
+}
+
+#mainContent #contentArticle {
+	width: 600px;
+	/* [disabled]height: 400px; */
+	float: left;
+}
+
+#mainContent #contentArticle h1 {
+	color: #067030;
+	font-size: 3em;
+	font-style: italic;
+}
+
+#mainContent #contentArticle p {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	width: 585px;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+}
+
+#mainContent #contentAside {
+	width: 345px;
+	height: 100%;
+	float: left;
+	padding-left: 5px;
+	padding-right: 10px;
+	overflow-y: visible;
+}
+
+#mainContent #contentAside p {
+	font-style: italic;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 1.5em;
+}
+
+#mainContent #contentAside h2 {
+	font-style: italic;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+
+
+#pageFooter {
+	width: 960px;
+	height: 50px;
+	border-top: thin solid #593417;
+	float: left;
+}
+
+#pageFooter p {
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.5em;
+}
